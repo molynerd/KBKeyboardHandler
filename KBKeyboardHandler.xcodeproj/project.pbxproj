@@ -13,6 +13,7 @@
 		696CBF7F1B685C5100293A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696CBF7E1B685C5100293A25 /* Assets.xcassets */; };
 		696CBF821B685C5100293A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696CBF801B685C5100293A25 /* LaunchScreen.storyboard */; };
 		696CBF8D1B685C5100293A25 /* KBKeyboardHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CBF8C1B685C5100293A25 /* KBKeyboardHandlerTests.swift */; };
+		696CBF981B685C9000293A25 /* KBKeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CBF971B685C9000293A25 /* KBKeyboardHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		696CBF881B685C5100293A25 /* KBKeyboardHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBKeyboardHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		696CBF8C1B685C5100293A25 /* KBKeyboardHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KBKeyboardHandlerTests.swift; sourceTree = "<group>"; };
 		696CBF8E1B685C5100293A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696CBF971B685C9000293A25 /* KBKeyboardHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KBKeyboardHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		696CBF761B685C5100293A25 /* KBKeyboardHandler */ = {
 			isa = PBXGroup;
 			children = (
+				696CBF971B685C9000293A25 /* KBKeyboardHandler.swift */,
 				696CBF771B685C5100293A25 /* AppDelegate.swift */,
 				696CBF791B685C5100293A25 /* ViewController.swift */,
 				696CBF7B1B685C5100293A25 /* Main.storyboard */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696CBF981B685C9000293A25 /* KBKeyboardHandler.swift in Sources */,
 				696CBF7A1B685C5100293A25 /* ViewController.swift in Sources */,
 				696CBF781B685C5100293A25 /* AppDelegate.swift in Sources */,
 			);
